@@ -1,5 +1,5 @@
 INSERT INTO oauth_client_details (client_id, client_secret, web_server_redirect_uri, scope, access_token_validity, refresh_token_validity, resource_ids, authorized_grant_types, additional_information)
-                VALUES ('mobile', '{bcrypt}$2y$12$QJagPP5YVI9nbn2Qbz4BnedF7XNUGdxIjQ3DF/YPYz/osRCzTF9Fq', 'http://localhost:8080/code', 'READ, WRITE', '3600', '10000', 'inventory,payment', 'authorization_code,password,refresh_token,implicit', '{}');
+                VALUES ('mobile', '{bcrypt}$2a$10$p4gvyuuQC/p4BZCPchQkauuNgWoggGddu6diKbNAZYsf7fZXuDdg6', 'http://localhost:8080/code', 'READ, WRITE', '3600', '10000', 'inventory,payment', 'authorization_code,password,refresh_token,implicit', '{}');
 
  INSERT INTO PERMISSION (NAME) VALUES
  ('create_profile'),

@@ -1,1 +1,1 @@
-# OAuth2-Social-Login
+# OAuth2-Server
